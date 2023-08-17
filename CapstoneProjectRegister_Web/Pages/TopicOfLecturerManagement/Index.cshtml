@@ -1,0 +1,54 @@
+﻿@page
+@model CapstoneProjectRegister.Web.Pages.TopicOfLecturerManagement.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Topic
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Semester
+            </th>
+            <th>
+                Super Lecturer Email
+            </th>
+            <th>
+                Lecturer
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TopicVew) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SemesterCode)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SuperLecturerEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LecturerName)
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

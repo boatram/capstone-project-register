@@ -1,0 +1,59 @@
+﻿@page
+@model CapstoneProjectRegister.Web.Pages.StudentInGroupManagement.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Add New Student</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Student
+            </th>
+            <th>
+                Role
+            </th>      
+            <th>
+                Join Date
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Description
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.StudentInGroup) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JoinDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>           
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
