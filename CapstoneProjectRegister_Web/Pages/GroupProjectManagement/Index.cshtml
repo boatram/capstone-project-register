@@ -40,9 +40,18 @@
             <td>
                     @Html.DisplayFor(modelItem => item.Topic.Name)
             </td>
-            <td>
-                    @Html.DisplayFor(modelItem => item.Status)
-            </td>
+                @if (item.Status.Equals(true))
+                {
+                    <td>Done</td>
+                }
+                else if (item.Status.Equals(false))
+                {
+                    <td>Fail</td>
+                }
+                else
+                {
+                    <td>Not yet</td>
+                }
             <td>
                     <a asp-page="/StudentInGroupManagement/Index" asp-route-id="@item.Id">View all</a> 
             </td>

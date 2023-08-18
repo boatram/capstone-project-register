@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj": {}
+    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj": {}
   },
   "projects": {
-    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj": {
+    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj",
+        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj",
         "projectName": "CapstoneProjectRegister.Web",
-        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj",
+        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\CapstoneProjectRegister.Web.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\obj\\",
+        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProjectRegister_Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj": {
-                "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj"
+              "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj": {
+                "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj"
               }
             }
           }
@@ -109,14 +109,14 @@
         }
       }
     },
-    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {
+    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
+        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
         "projectName": "CapstoneProject.Repository",
-        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
+        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\obj\\",
+        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -202,14 +202,14 @@
         }
       }
     },
-    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj": {
+    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj",
+        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj",
         "projectName": "CapstoneProject.Service",
-        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj",
+        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Service\\CapstoneProject.Service.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Service\\obj\\",
+        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,8 +230,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {
-                "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj"
+              "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {
+                "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj"
               }
             }
           }

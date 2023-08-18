@@ -102,6 +102,7 @@ namespace CapstoneProject.Repository
                 if (_topic != null)
                 {
                     using var context = new CapstoneProjectRegisterContext();
+                    topic.Password = _topic.Password;
                     context.Students.Update(topic);
                     context.SaveChanges();
                 }

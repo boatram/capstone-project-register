@@ -43,9 +43,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.JoinDate)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>           
+                @if (item.Status.Equals(true))
+                {
+                    <td>Done</td>
+                }
+                else if (item.Status.Equals(false))
+                {
+                    <td>Fail</td>
+                }
+                else
+                {
+                    <td>Not yet</td>
+                }
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>

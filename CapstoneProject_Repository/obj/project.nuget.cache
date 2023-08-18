@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zb5B9ClueS4Uw4dAy5ILlBqYdJ0RUJbPRt6INI4+vRhhYnKsYL/NPzkyp27PqsgePl61a9l7QMX9TBgj6XM8Zw==",
+  "dgSpecHash": "jeb0Bm7+kZ4Pz7BeG03pKY0+jaguoT7E06CtC2c/c3Sxp6fly8tA9YPi+50r6Qv6UwydCNXSA7QDRV5MrTFMCg==",
   "success": true,
-  "projectFilePath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
+  "projectFilePath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

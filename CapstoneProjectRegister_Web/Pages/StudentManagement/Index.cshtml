@@ -46,9 +46,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gender)
-            </td>
+                @if (item.Gender.Equals(true))
+                {
+                    <td>Male</td>
+                }
+                else if (item.Gender.Equals(false))
+                {
+                    <td>Female</td>
+                }
+                else
+                {
+                    <td>Unknow</td>
+                }
             <td>
                 @Html.DisplayFor(modelItem => item.DateOfBirth)
             </td>

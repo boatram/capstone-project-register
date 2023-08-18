@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {}
+    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {}
   },
   "projects": {
-    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {
+    "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
+        "projectUniqueName": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
         "projectName": "CapstoneProject.Repository",
-        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
+        "projectPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\CapstoneProject.Repository.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister (2)\\CapstoneProjectRegister\\CapstoneProjectRegister\\CapstoneProject_Repository\\obj\\",
+        "outputPath": "D:\\PRN221_T_Phuong\\CapstoneProjectRegister\\CapstoneProject_Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
