@@ -8,16 +8,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CapstoneProject.Repository.Model;
 using CapstoneProject.Service;
+using System.Collections;
+using Microsoft.AspNetCore.Http;
 
 namespace CapstoneProjectRegister.Web.Pages.StudentManagement
 {
     public class EditModel : PageModel
     {
         private readonly StudentService _context;
+        private readonly FirebaseStorageService _fileStorageService;
 
-        public EditModel(StudentService context)
+        public EditModel(StudentService context, FirebaseStorageService firebaseStorageService)
         {
             _context = context;
+            _fileStorageService = firebaseStorageService;
         }
 
         [BindProperty]
@@ -41,13 +45,17 @@ namespace CapstoneProjectRegister.Web.Pages.StudentManagement
 
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see https://aka.ms/RazorPagesCRUD.
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(IFormFile userDisplayPic)
         {
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-
+            if (userDisplayPic != null && userDisplayPic.Length > 0)
+            {
+                string url = await _fileStorageService.UploadFileToDefaultAsync(userDisplayPic.OpenReadStream(), userDisplayPic.FileName);
+                Student.Avatar = url;
+            }
             try
             {
                 _context.Update(Student);

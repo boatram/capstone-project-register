@@ -64,7 +64,11 @@ namespace CapstoneProject.Repository
             {
                 using var context = new CapstoneProjectRegisterContext();
                 semester = context.Semesters.SingleOrDefault(m => m.Code.Equals(code));
-                id = semester.Id;
+                if (semester != null)
+                {
+                    id = semester.Id;
+                }
+                else id = 0;
             }
             catch (Exception ex)
             {

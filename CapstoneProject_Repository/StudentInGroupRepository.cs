@@ -13,6 +13,7 @@ namespace CapstoneProject.Repository
     {
         private static StudentInGroupRepository instance = null;
         private static StudentInSemesterRepository repository = null;
+        private static GroupRepository groupRepository = null;
         public static readonly object instanceLock = new object();
         public static StudentInGroupRepository Instance
         {
@@ -24,6 +25,7 @@ namespace CapstoneProject.Repository
                     {
                         instance = new StudentInGroupRepository();
                         repository = new StudentInSemesterRepository();
+                        groupRepository = new GroupRepository();
                     }
                     return instance;
                 }
@@ -105,25 +107,34 @@ namespace CapstoneProject.Repository
         {
             try
             {
-                StudentInSemester sis = repository.GetStudentInSemesterByID(topic.StudentId);
-                if (sis != null)
+                int count = groupRepository.GetGroupProjects().Count();
+                if(count <= 4)
                 {
-                    StudentInGroup gr = GetStudentInGroup(topic.StudentId, topic.GroupId);
-                    if (gr == null)
+                    StudentInSemester sis = repository.GetStudentInSemesterByID(topic.StudentId);
+                    if (sis != null)
                     {
-                        using var context = new CapstoneProjectRegisterContext();
-                        context.StudentInGroups.Add(topic);
-                        context.SaveChanges();
+                        StudentInGroup gr = GetStudentInGroup(topic.StudentId, topic.GroupId);
+                        if (gr == null)
+                        {
+                            using var context = new CapstoneProjectRegisterContext();
+                            context.StudentInGroups.Add(topic);
+                            context.SaveChanges();
+                        }
+                        else
+                        {
+                            throw new Exception("The student is already exist.");
+                        }
                     }
                     else
                     {
-                        throw new Exception("The student is already exist.");
+                        throw new Exception("The student is not eligible this semester");
                     }
                 }
                 else
-                { 
-                    throw new Exception("The student is not eligible this semester");
-                }             
+                {
+                    throw new Exception("The group is full");
+                }
+                
             }
             catch (Exception ex)
             {

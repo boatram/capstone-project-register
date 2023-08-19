@@ -118,9 +118,7 @@ namespace CapstoneProject.Repository.Model
             {
                 entity.ToTable("Student");
 
-                entity.Property(e => e.Avatar)
-                    .HasMaxLength(1)
-                    .IsUnicode(false);
+                entity.Property(e => e.Avatar).IsUnicode(false);
 
                 entity.Property(e => e.Code)
                     .IsRequired()
