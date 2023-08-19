@@ -36,6 +36,7 @@ namespace CapstoneProjectRegister.Web
             services.AddScoped<StudentService>();
             services.AddScoped<StudentInGroupService>();
             services.AddScoped<StudentInSemesterService>();
+            services.AddScoped<FirebaseStorageService>();
             services.AddDbContext<CapstoneProjectRegisterContext>(option => option.UseSqlServer(Configuration.GetConnectionString("CapstoneProjectRegisterDB")));
             services.AddAutoMapper(typeof(Mapping).Assembly);
             services.AddSession(options => {

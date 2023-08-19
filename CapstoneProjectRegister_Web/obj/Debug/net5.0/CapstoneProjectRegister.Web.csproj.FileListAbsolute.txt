@@ -546,3 +546,6 @@ D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\obj\Debug
 D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\obj\Debug\net5.0\CapstoneProjectRegister.Web.genruntimeconfig.cache
 D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\obj\Debug\net5.0\ref\CapstoneProjectRegister.Web.dll
 D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\obj\Debug\net5.0\Razor\Pages\SemesterManagement\Edit.cshtml.g.cs
+D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\bin\Debug\net5.0\Firebase.Auth.dll
+D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\bin\Debug\net5.0\Firebase.Storage.dll
+D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProjectRegister_Web\bin\Debug\net5.0\System.ServiceModel.dll

@@ -220,3 +220,6 @@ D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\bin\Debug\
 D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\obj\Debug\net5.0\CapstoneProject.Repository.csproj.CopyComplete
 D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\obj\Debug\net5.0\CapstoneProject.Repository.genruntimeconfig.cache
 D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\obj\Debug\net5.0\ref\CapstoneProject.Repository.dll
+D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\bin\Debug\net5.0\Firebase.Auth.dll
+D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\bin\Debug\net5.0\Firebase.Storage.dll
+D:\PRN221_T_Phuong\CapstoneProjectRegister\CapstoneProject_Repository\bin\Debug\net5.0\System.ServiceModel.dll

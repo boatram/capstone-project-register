@@ -66,13 +66,13 @@ namespace CapstoneProject.Repository
             return topic;
         }
 
-        public IEnumerable<Topic> GetTopicByName(string? name)
+        public Topic GetTopicByName(string? name)
         {
-            var topics = new List<Topic>();
+            var topics = new Topic();
             try
             {
                 using var context = new CapstoneProjectRegisterContext();
-                topics = context.Topics.Where(m => m.Name.Equals(name)).ToList();
+                topics = context.Topics.SingleOrDefault(m => m.Name.Equals(name));
             }
             catch (Exception ex)
             {
@@ -86,7 +86,7 @@ namespace CapstoneProject.Repository
             try
             {
                 Topic topic2 = new Topic();
-                topic2 = instance.GetTopicByName(topic.Name).First();
+                topic2 = instance.GetTopicByName(topic.Name);
                 //using var context = new CapstoneProjectRegisterContext();              
                 if (topic2 == null)
                 {
@@ -123,7 +123,7 @@ namespace CapstoneProject.Repository
         {
             try
             {
-                Topic _topic = GetTopicByName(topic.Name).First();
+                Topic _topic = GetTopicByName(topic.Name);
                 if (_topic== null)
                 {
                     using var context = new CapstoneProjectRegisterContext();
