@@ -62,7 +62,7 @@
                 @Html.DisplayFor(modelItem => item.DateOfBirth)
             </td>
             <td>
-                <img src="item.Avatar"/>
+                    <img name="userDisplay" src="@item.Avatar" class="user-photo" id="user-photo" value="" width="60dp" height="60dp" />
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
